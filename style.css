@@ -1,154 +1,79 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-}
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;  
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
+    background-image: url(/Users/ignacio/Desktop/Nacho/WEBdevelopment/challenges/myProjects-main/images/bg-pattern-top.svg),
+    url(/Users/ignacio/Desktop/Nacho/WEBdevelopment/challenges/myProjects-main/images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-position: -240px -500px, 740px 370px ;;
+    text-align: center;
 }
 
-p {
-    color: #adaaaa;
-    font-size: 1rem;
-}
-
-#title {
-    background-color: #ff4c68;
-    color: white;
+.profile_card {
+    position: relative;
+    width: 380px;
+    height: 400px;
+    margin: 20% auto;
+    border-radius: 5%;
+    background-color: white;
+    overflow: hidden;
     
 }
+ .top_BGcard { 
+    height: 150px;
+    background: url(/Users/ignacio/Desktop/Nacho/WEB_development/challenges/myProjects-main/images/bg-pattern-card.svg);
+ }
+ img {
+     position: absolute;
+     left: 140px;
+     top: 100px;
+     border-radius: 50%;
+     border: 5px solid white;
+ }
 
-.container-fluid {
-    padding: 3% 12% 5%;
-}
+ .card_profile_info
+ {
+     color: hsl(229, 23%, 23%)
+ }
 
-.navbar {
-    padding: 0 3% 8% 0;
-}
-.navbar-brand  {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2rem;
+ h1 {
+     margin: 80px auto 10px;
+     font-size: 18px;
+     font-family: 'Kumbh Sans', sans-serif;
+     font-weight: 700;
+     
+ }
+ span {
+    font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
-}
+    color: gray;
+     
+ } 
+ h2 {
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: gray;
+ }
 
-.nav-item {
-    padding: 0px 18px;
-}
+ table {
+     font-family: 'Kumbh Sans', sans-serif;
+     margin: 20px auto;
+     text-align: center;
+     width: 360px;
+ }
 
-.nav-link {
-    font-weight: 100;
-}
+ th {
+     width: 33%;
+     height: 30px;
+     font-size: 18px;
+ }
 
-.downloadbutton {
-    margin: 5% 3% 10% 0;
-}
+ td {
+     font-size: 12px;
+     color: gray;
+ }
 
-.title-image {
-    position: absolute;
-    right: 22%;
-    width: 18.5em;
-    transform: rotate(20deg); 
-}
-
-/*Features Section*/
-
-#features {
-    background-color: white;
-    padding: 6% 2%;
-    text-align: center;
-    position: relative;
-
-}
-
-.eachfeature {
-padding: 3%;
-}
-
-.iconfeature {
-    color: #FF9292;
-    margin: 20px;
-}
-
-.iconfeature:hover {
-    color: #ff4c68;
-
-}
-
- /*Testimonials Section */
-
-#testimonials {
-    text-align: center;
-    background-color: #ff4c68;
-}
-
-h2 {
-    color: white;
-    font-weight: 700;
-    padding: 0 2% 2%;
-}
-
-.testimonial-image {
-    width: 12%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-em {
-    color: white;
-    font-size: 0.8rem;
-}
-
-.carousel-item {
-    padding:  5% 15%;
-
-}
-
-/*press*/
-
-#press {
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 0 10% 5% 10%;
-}
-
-.press-logo {
-    width: 20%;
-    padding: 0 20px;
-}
-/* Pricing */
-
-#pricing {
-    text-align: center;
-    padding: 5% 15%;
-}
-
-.card-title {
-    color: Black;
-    font-size: 2.5rem;
-}
-
-h4 {
-    font-size: 2rem;
-    font-weight: 700;
-}
-.cardpricing {
-    padding: 30px 20px;
-}
-
-@media (max-width: 992px) {
-    #title { 
-        text-align: center;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-
-    }
-}
+ hr {
+     margin-top: 20px;
+     border: none;
+     border-top: 0.1rem solid lightgray;
+ }
